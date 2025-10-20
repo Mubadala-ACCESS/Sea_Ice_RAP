@@ -1,4 +1,7 @@
-     --- Sea_Ice_RAP ---
+We develop a Random Analogue Predictor (RAP) algorithm for the forecasting of Arctic Sea Ice Extent (SIE) on seasonal timescales. This is a stochastic variant of the celebrated method of the analogues that only uses the historical SIE record to produce ensemble forecasts. When comparing the observations with the most representative forecast of the ensemble (as identified through the band--depth, a centrality measure for functional data) the algorithm shows negligible bias and RMSE no larger than 
+ km. We argue that simplicity, interpretability, independence on physical hypothesis, and the ability to attach an uncertainty estimate to its own forecasts, should make RAP the benchmark of choice for physics--based and AI--based models alike.
+
+--- Sea_Ice_RAP ---
 Random Analog Prediction of Arctic Sea Ice Extent using NSIDC SIE data.
 
 The core of the software is the "sea_ice" class in sea_ice_rap_lambda.py.
